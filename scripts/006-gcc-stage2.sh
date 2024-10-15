@@ -73,6 +73,7 @@ for TARGET in "mips64r5900el-ps2-elf"; do
     --with-sysroot="$PS2DEV/$TARGET_ALIAS/$TARGET" \
     --with-native-system-header-dir="/include" \
     --with-newlib \
+    --disable-shared \
     --disable-libssp \
     --disable-multilib \
     --disable-nls \
